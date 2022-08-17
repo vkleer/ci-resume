@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;400;700&family=Roboto+Slab:wght@100;200;400;700&display=swap');
+
+/* Colours */
+.bg-color-name-title {
+    background-color: #3b4d5b;
+}
+
+/* Heading */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url('../images/pf-pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 200;
+    font-size: 4rem;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
