@@ -5,6 +5,19 @@
     background-color: #3b4d5b;
 }
 
+.ui-menu-color-home {
+    background-color: #F0F2F2;
+}
+.ui-menu-color-resume {
+    background-color: #D9CCC7;
+}
+.ui-menu-color-contact {
+    background-color: #A69992;
+}
+.ui-menu-color-download {
+    background-color: #8C8177;
+}
+
 /* Heading */
 
 header {
@@ -29,7 +42,7 @@ header {
 .name {
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 200;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: 50px;
     color: #fff;
 }
@@ -37,8 +50,21 @@ header {
 .title {
     font-family: 'Exo 2', sans-serif;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menu-container {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 1rem;
+    padding: 0;
 }
