@@ -5,17 +5,8 @@
     background-color: #3b4d5b;
 }
 
-.ui-menu-color-home {
-    background-color: #F0F2F2;
-}
-.ui-menu-color-resume {
-    background-color: #D9CCC7;
-}
-.ui-menu-color-contact {
-    background-color: #A69992;
-}
-.ui-menu-color-download {
-    background-color: #8C8177;
+.ui-menu-color {
+    background-color: #f6f6f6;
 }
 
 /* Heading */
@@ -67,4 +58,31 @@ header {
 #nav li {
     font-size: 1rem;
     padding: 0;
+}
+
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+.menu-item a {
+    height: 120px;
+    width: 100%;
+    text-decoration: none;
+    color: #3b4d5b;
+}
+.menu-item a i {
+    padding-top: 25px;
+    display: block;
+    font-size: 1.5rem
+}
+.menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
