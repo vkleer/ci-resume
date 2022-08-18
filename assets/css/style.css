@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;700&family=Roboto+Slab:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;700&family=Roboto+Slab:wght@100;200;300;400;700&display=swap');
 /* Colours */
 .bg-color-name-title {
     background-color: #3b4d5b;
+}
+
+.bg-color-three-reasons {
+    background-color: #fff;
 }
 
 .ui-menu-color {
@@ -19,7 +23,7 @@ h1, h2, h3, h4 {
 }
 
 .general-sub {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     color: #fff;
@@ -27,6 +31,22 @@ h1, h2, h3, h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    margin: 25px 0;
 }
 
 /* Heading */
