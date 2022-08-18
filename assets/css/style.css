@@ -18,6 +18,14 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
+p {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+.p--white {
+    font-weight: 200;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -44,9 +52,10 @@ h1, h2, h3, h4 {
 }
 
 .section-heading {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-weight: 300;
     margin: 25px 0;
+    color: #3b4d5b;
 }
 
 /* Heading */
@@ -176,6 +185,21 @@ footer {
 }
 .social-links li a i:hover {
     background-color: #f8ae0f;
+}
+
+/* Three Reasons */
+
+.three-reasons-icon {
+    font-size: 1.5rem;
+    color: #3b4d5b;
+    margin-top: 5px;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+    color: #3b4d5b;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
 }
 
 /* Hover.css */
