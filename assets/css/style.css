@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;700&family=Roboto+Slab:wght@100;200;300;400;700&display=swap');
 /* Colours */
 .bg-color-name-title {
-    background-color: #3b4d5b;
+    background-color: #27333d;
 }
 
 .bg-color-three-reasons {
     background-color: #fff;
+}
+
+.bg-color-personal-info {
+    background-color: #3b4d5b;
+}
+.bg-color-personal-info h1 {
+    color: #fff;
 }
 
 .ui-menu-color {
@@ -23,6 +30,7 @@ p {
     font-weight: 300;
 }
 .p--white {
+    color: #fff;
     font-weight: 200;
 }
 
@@ -53,9 +61,10 @@ p {
 
 .section-heading {
     font-family: 'Exo 2', sans-serif;
+    font-size: 2rem;
     font-weight: 300;
     margin: 25px 0;
-    color: #3b4d5b;
+    color: #27333d;
 }
 
 /* Heading */
@@ -122,7 +131,7 @@ header {
     height: 120px;
     width: 100%;
     text-decoration: none;
-    color: #3b4d5b;
+    color: #27333d;
 }
 .menu-item a i {
     padding-top: 25px;
@@ -143,8 +152,7 @@ header {
 /* Footer */
 
 footer {
-    background-color: #2b3c49;
-    color: #fff;
+    background-color: #27333d;
     min-height: 120px;
     margin: 0;
 }
@@ -177,7 +185,7 @@ footer {
     font-size: 1rem;
     line-height: 10px;
     text-align: center;
-    color: #3b4d5b;
+    color: #27333d;
     background-color: #f6f6f6;
     -webkit-transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
@@ -191,15 +199,44 @@ footer {
 
 .three-reasons-icon {
     font-size: 1.5rem;
-    color: #3b4d5b;
+    color: #27333d;
     margin-top: 5px;
 }
 
 .three-reasons-heading {
     margin-bottom: 15px;
-    color: #3b4d5b;
+    color: #27333d;
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 300;
+}
+
+/* Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+.personal-info-item .key {
+    width: 20%;
+    margin-right: 15px;
+    vertical-align: top;
+}
+.personal-info-item .key p {
+    font-weight: 400;
+}
+.personal-info-item .value {
+    position: relative;
+    width: 70%;
 }
 
 /* Hover.css */
