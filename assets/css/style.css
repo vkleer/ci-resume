@@ -180,6 +180,7 @@ footer {
 .social-links li a i {
     height: 32px;
     width: 32px;
+    margin-top: 5px;
     padding: 12px 0;
     border-radius: 50%;
     font-size: 1rem;
