@@ -20,8 +20,13 @@ h1, h2, h3, h4 {
 
 .general-sub {
     font-family: 'Exo 2', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 1rem;
     color: #fff;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /* Heading */
@@ -43,6 +48,7 @@ header {
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5 ease-in-out;
 }
 
 .name {
@@ -108,10 +114,48 @@ header {
 /* Footer */
 
 footer {
-    background-color: #3b4d5b;
+    background-color: #2b3c49;
     color: #fff;
     min-height: 120px;
     margin: 0;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.cv-pdf i {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+}
+.cv-pdf i:hover {
+    color: #f8ae0f;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    height: 32px;
+    width: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 1rem;
+    line-height: 10px;
+    text-align: center;
+    color: #3b4d5b;
+    background-color: #f6f6f6;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+}
+.social-links li a i:hover {
+    background-color: #f8ae0f;
 }
 
 /* Hover.css */
