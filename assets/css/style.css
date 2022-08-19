@@ -160,12 +160,16 @@ header {
 
 footer {
     background-color: #27333d;
-    min-height: 120px;
+    min-height: 100px;
     margin: 0;
 }
 
 #footer-details {
     padding: 20px;
+}
+#footer-details .general-sub {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .cv-pdf i {
@@ -183,6 +187,10 @@ footer {
 
 .social-links {
     padding-bottom: 15px;
+    text-align: center;
+}
+.social-links li {
+    width: 50px;
 }
 .social-links li a i {
     height: 32px;
