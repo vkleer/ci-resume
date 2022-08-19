@@ -306,3 +306,33 @@ footer {
 .history-items {
     margin-bottom: 30px;
 }
+
+/* Contact form */
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+.center-form input {
+    margin-bottom: 20px;
+}
+
+button[type='submit'] {
+    margin: 20px;
+    color: #fff;
+    background-color: #27333d;
+}
+.btn[type='submit']:hover {
+    color: #fff;
+    background-color: #f8ae0f;
+    border-color: #e9a20b;
+
+/* Media queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        min-height: 240px;
+        max-width: 50%;
+    }
+}
