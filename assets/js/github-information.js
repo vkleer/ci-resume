@@ -1,3 +1,20 @@
+function userInformationHTML(user) {
+    return `
+    <h2 class='text-white'>${user.name}
+        <span class='small-name'>
+            (@<a href='${user.html_url}' target='_blank'>${user.login}</a>)
+        </span>
+    </h2>
+    <div class='gh-content'>
+        <div class='gh-avatar'>
+            <a href='${user.html_url} target='_blank'>
+                <img src='${user.avatar_url}' height='80' width='80' alt='${user.login}' />
+            </a>
+        </div>
+        <p class='text-white'>Followers: ${user.followers} - Following: ${user.following} <br> Repos: ${user.public_repos}</p>
+    </div>`
+}
+
 function fetchGitHubInformation(event) {
     let username = $('#gh-username').val();
     if (!username) {
