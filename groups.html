@@ -160,10 +160,20 @@
             </div>
         </div>
     </footer>
+    <script>
+        let map;
 
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: -34.397, lng: 150.644 },
+            zoom: 8,
+        });
+}
+
+window.initMap = initMap;
+    </script>
     <!-- Google Maps API -->
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlJtyuKcWfq0QnGwTvvxRlar1Wq_KH1jE&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlJtyuKcWfq0QnGwTvvxRlar1Wq_KH1jE&callback=initMap&v=weekly" defer></script>
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

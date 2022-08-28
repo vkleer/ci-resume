@@ -335,6 +335,13 @@ button[type='submit'] {
     color: #fff;
     background-color: #f8ae0f;
     border-color: #e9a20b;
+}
+
+/* Google Maps API */
+
+#map {
+  min-height: 360px;
+}
 
 /* Media queries */
 
