@@ -15,7 +15,7 @@ function userInformationHTML(user) {
     </div>`
 }
 
-function fetchGitHubInformation(event) {
+function fetchGitHubInformation() {
     let username = $('#gh-username').val();
     if (!username) {
         $('#gh-user-data').html(`<h2>Please enter a GitHub username</h2>`);
@@ -48,3 +48,7 @@ function fetchGitHubInformation(event) {
         }
     )
 }
+
+$(window).on('load', function() {
+    fetchGitHubInformation();
+});
