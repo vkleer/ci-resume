@@ -64,6 +64,9 @@ function fetchGitHubInformation() {
                 $('#gh-user-data').html(`
                 <h3 class='github-heading'>No information found for user ${username}</h3>
                 `);
+            } else if (errorResponse.status === 403) {
+                let resetTime = new Date(errorResponse.getResponseHeader('X-RateLimit-Reset') * 1000);
+                $('#gh-user-data').html(`<h3 class='github-heading'> Too many requests were made, please wait until ${resetTime.toLocaleTimeString()} before trying again.</h3>`);
             } else {
                 console.log(errorResponse);
                 $('#gh-user-data').html(
